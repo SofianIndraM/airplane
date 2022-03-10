@@ -1,6 +1,6 @@
 import 'package:airplane/cubit/page_cubit.dart';
 import 'package:airplane/ui/pages/home_page.dart';
-import 'package:airplane/ui/pages/option_page.dart';
+import 'package:airplane/ui/pages/setting_page.dart';
 import 'package:airplane/ui/pages/transaction_page.dart';
 import 'package:airplane/ui/pages/wallet_page.dart';
 import 'package:airplane/ui/widget/custom_bottom_navigation_item.dart';
@@ -66,7 +66,7 @@ class MainPage extends StatelessWidget {
         case 2:
           return WalletPage();
         case 3:
-          return OptionPage();
+          return SettingPage();
         default:
           return HomePage();
       }
